@@ -5,7 +5,7 @@ function Submit()
     var Email = document.getElementById("email").value;
 
     if(Username == ""){
-        document.getElementById("e-name").innerHTML="Kindly Enter UserName";
+        document.getElementById("e-name").innerHTML="Kindly Enter Username";
         document.getElementById("user-icon").style.transform = "translateY(-100%)";
         return false;
     }
